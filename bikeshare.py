@@ -130,11 +130,11 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TO DO: display total travel time
+    # TO DO: display total travel time, for this you have to subtract the starting Timestamp (1970-01-10)
     total_travel_time = df['Trip Duration'].sum()
     total_travel_time = pd.to_datetime(total_travel_time, unit = 's') - pd.Timestamp("1970-01-01")
     print('The total travel time is:', total_travel_time)
-    # TO DO: display mean travel time
+    # TO DO: display mean travel time, for this you have to subtract the starting Timestamp (1970-01-10)
     average_travel_time = df['Trip Duration'].mean()
     average_travel_time = pd.to_datetime(average_travel_time, unit = 's') - pd.Timestamp("1970-01-01")
     print('The average travel time is:', average_travel_time)
