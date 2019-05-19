@@ -8,3 +8,5 @@ analyses travel and costumer data of a bikeshare company
 chicago.csv, new_york_city.csv, washington.csv
 ### Credits
 google search and stack overflow
+### Created by
+Tünde Bognár
